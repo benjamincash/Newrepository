@@ -1,4 +1,8 @@
 Write-Host "Hello World"
 Write-host "Second Hello"
 
-Get-Process
+$process = Get-Process
+Foreach ($ in Process)
+  {
+    Write-Host $a.Name
+  }
